@@ -1,0 +1,10 @@
+<h1>Coaching#ask</h1>
+<p>Find me in app/views/coaching/ask.html.erb</p>
+
+<form action="/coaching/ask">
+  <label for="question">Speak to your coach</label>
+  <input type="text" id="question" name="question" placeholder="what time is it?">
+  <input type="submit" value="Go on!">
+</form>
+
+<%= link_to "answer", coaching_answer_path %>
